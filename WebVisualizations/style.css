@@ -7,6 +7,10 @@ body {
     background: skyblue;
   }
   
+  .img{
+    padding: 10px
+  }
+
   .box{
     padding: 10px;
     background: white;
@@ -15,8 +19,12 @@ body {
     margin-right:5px;
     margin-bottom:20px;
     align-content: center;
+    border-radius: 3px;
   }
   
+  .box b img {
+    margin-right:10px;
+  }
   
   /* Giving our navbar some padding and a background color */
   .navbar {
@@ -36,6 +44,7 @@ body {
   }
   h1 {
     font-size: 35px;
+    text-align: center;
   }
   h2 {
     font-size: 20px;

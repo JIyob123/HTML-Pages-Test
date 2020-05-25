@@ -36,9 +36,10 @@
                 <ul class="nav navbar-nav navbar-right">
 	              	<li>
 	                	<div class="dropdown">
-	                		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
-	                		<span class="caret"></span></button> 
-	                		<ul class="dropdown-menu">
+	                		<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Plots
+								<span class="caret"></span>
+							</button> 
+	                		<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 	                 			<li><a href="./visualization1.html">Latitude vs. Max Temperature</a></li>
 	                  			<li><a href="./visualization2.html">Latitude vs. Humidity</a></li>
 	                 			<li><a href="./visualization3.html">Latitude vs. Cloudiness</a></li>
@@ -65,7 +66,7 @@
                                 <h1 class="title">Summary: Where We Landed</h1>
                             </div>
                             <div class="box">
-                            	<img src=https://images-na.ssl-images-amazon.com/images/I/716bEmgZlqL._AC_SX522_.jpg height="280" width="280" align="left">
+                            	<b><img src=https://images-na.ssl-images-amazon.com/images/I/716bEmgZlqL._AC_SX522_.jpg height="280" width="280" align="left"></b>
                             	<p class="category">The goal of this project is to display data related to energy sources used in the US and compare it to Green Energy vs
 									Conventional Energy by year over the last 3 decades. Which bares the question ....</p>
 	                            <p class="category">Has the US been moving towards greener, more sustainable energy sources?</p>
@@ -92,11 +93,11 @@
 	</div>
 </body>
 
-<script src="assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
+
 <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="assets/js/chartist.min.js"></script>
 <script src="assets/js/bootstrap-notify.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
 
 </html>
    
