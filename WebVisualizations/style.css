@@ -1,10 +1,10 @@
 body {
-    background: rgb(163, 219, 238);
+    background: rgb(22, 87, 131);
   }
   /* every box is this size */
   
-  .skyblue {
-    background: rgb(3, 147, 196);
+  .sky blue {
+    background: skyblue;
   }
   
   .box{
@@ -23,7 +23,7 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     padding: 25px;
-    background: #5D6D7E;
+    background: rgb(16, 107, 31);
   }
   
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -51,7 +51,7 @@ body {
     font-size: 25px;
   }
   
-  .latitude {
+  .energysource {
     color: white;
     font-family: verdana;
     font-size: 40px;
