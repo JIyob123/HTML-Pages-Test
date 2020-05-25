@@ -1,25 +1,22 @@
 body {
-    background: rgb(22, 87, 131);
+    background: grey:
   }
   /* every box is this size */
   
-  .sky blue {
-    background: skyblue;
-  }
-  
-  .img{
-    padding: 10px
-  }
-
   .box{
     padding: 10px;
-    background: white;
+    background: #f1f1f1;
     margin-top:50px;
     margin-left:5px;
     margin-right:5px;
-    margin-bottom:20px;
+    margin-bottom:40px;
     align-content: center;
     border-radius: 3px;
+    font: Times normal;
+  }
+
+  .dropdown {
+    color: #5196fd;
   }
   
   .box b img {
@@ -31,16 +28,18 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     padding: 25px;
-    background: rgb(16, 107, 31);
+    background: rgb(25, 134, 25);
   }
   
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
   .navbar li {
     display: d-block;
     padding: 10px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
     cursor: pointer;
+    color: black;
+    text-decoration: none;
   }
   h1 {
     font-size: 35px;
@@ -64,21 +63,22 @@ body {
     color: white;
     font-family: verdana;
     font-size: 40px;
-    background-color: #2874A6;
-    border: 1px solid #2874A6;
+    background-color: #5196fd;
+    border: 1px solid #5196fd;
       padding: 15px;
   }
   /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
   @media (max-width: 480px) {
     .navbar li {
       padding: 10px;
+    
     }
     .box {
       margin-right: 20px;
       margin-left: 20px;
     }
     .navbar ul {
-      visibility: hidden;
+      visibility: visible;
     }
     #nav-select {
       visibility: visible;
